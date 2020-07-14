@@ -9,7 +9,7 @@ public class SumOfArrayEntries {
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr.length; j++) {
 				if (arr[i]+arr[j]==sum) {
-					System.out.println("the pairs with "+sum+" are ("+arr[i]+","+arr[j]+")");
+					System.out.println("the pairs with sum "+sum+" are ("+arr[i]+","+arr[j]+")");
 				}
 			}
 			
